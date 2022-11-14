@@ -1,5 +1,5 @@
 ﻿using Business;
-using Common.Entities;
+using Common.Model;
 
 namespace Services
 {
