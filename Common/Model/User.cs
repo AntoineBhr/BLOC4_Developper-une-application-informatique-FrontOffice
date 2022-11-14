@@ -8,9 +8,13 @@ namespace Common.Model
 {
     public class User
     {
-        public User()
+        public User(int id, string firstName, string email)
         {
-            Roles = new List<UserRole>(); 
+            Id = id;
+            FirstName = firstName;
+            Email = email;
+            Roles = new List<UserRole>();
+
         }
         public int Id { get; set; }
         public string FirstName { get; set; }

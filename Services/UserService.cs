@@ -1,5 +1,5 @@
 ﻿using Business;
-using Common.Entities;
+using Common.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +16,7 @@ namespace Services
         {
             Users = new List<User>
             {
+               
                 new User(1, "Farhatdu33", "farhat@gmail.com"),
                 new User(2, "JoséleBoss", "josetheboss@wanadoo.fr"),
                 new User(3, "Miguelito", "miguelito@gmail.com"),
